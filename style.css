@@ -1,0 +1,19 @@
+body {background-color: rgb(240, 240, 240);
+      display: flex;
+      height: 100vh;
+      justify-content: center;    
+      align-items: center;
+      font-family: 'Calibri', 'Times New Roman', 'Verdana';}
+div {background-color: white;
+     padding: 10px;
+     border: 10px solid rgb(240, 240, 240);
+     border-radius: 25px;
+     height: 80vh;
+     width: 400px;}
+input, select {width: 95%;
+               padding: 5px;}
+.btn {background-color: #2765b6;
+      color: white;
+      border: 10px solid #2765b6;
+      border-radius: 5px;}
+h2 {text-align: center;}

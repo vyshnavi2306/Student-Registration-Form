@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div>
+            <form onsubmit="validateform(event)" method="post">
+                <h2>User Registration</h2>
+                <input id="un" type="text" name="username" placeholder="Enter Name">
+                <p id="nv"></p>
+                <input id="ue" type="email" name="useremail" placeholder="Enter Email">
+                <p id="ev"></p>
+                <input id="up" type="password" name="userpassword" placeholder="Enter Password">
+                <p id="pv"></p>
+                <select id="ug" name="gender">
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+                <p id="gv"></p>
+                <input class="btn" type="submit" value="Register">
+                <p id="success"></p>
+            </form>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
